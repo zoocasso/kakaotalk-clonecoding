@@ -1,0 +1,15 @@
+/*component css*/
+@import "component/reset.css";
+@import "component/initial.css";
+@import "component/status-bar.css";
+@import "component/nav-bar.css";
+@import "component/title-bar.css";
+
+/*screen css*/
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/chatting.css";
+@import "screens/setting.css";

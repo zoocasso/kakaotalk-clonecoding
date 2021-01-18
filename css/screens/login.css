@@ -1,0 +1,58 @@
+/*<welcome>*/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.welcome h1 {
+  font-size: 27px;
+  font-weight: 600;
+  margin: 25px 0px;
+}
+
+.welcome p {
+  font-size: 18px;
+  text-align: center;
+  color: gray;
+}
+
+/*</welcome>*/
+/*<form>*/
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  margin: 10px;
+  width: 90%;
+  height: 50px;
+  border: none;
+  font-size: 20px;
+}
+
+.form :first-child,
+.form :nth-child(2) {
+  border-bottom: 1px solid gray;
+}
+
+.form :first-child::placeholder,
+.form :nth-child(2)::placeholder {
+  color: gray;
+}
+
+.form a {
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  margin-top: 10px;
+}
+
+/*</form>*/

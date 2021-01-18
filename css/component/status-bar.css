@@ -1,0 +1,51 @@
+/*<status bar>*/
+
+.status-bar {
+  padding: 5px 10px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-bar__column {
+  width: 33%;
+}
+
+.status-bar :first-child {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.status-bar :first-child span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.status-bar :nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.status-bar :nth-child(2) span {
+  font-weight: 700;
+}
+
+.status-bar :last-child {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.status-bar :last-child span {
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+.status-bar :last-child:last-child {
+  margin-left: 5px;
+}
+
+/*</status bar>*/

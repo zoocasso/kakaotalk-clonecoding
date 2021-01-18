@@ -1,0 +1,38 @@
+.setting-column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 40px 0px;
+}
+
+.setting-column i,
+.setting-column div {
+  margin: 0px 20px;
+}
+
+.setting-column span {
+  font-size: 20px;
+}
+
+.setting--circle {
+  width: 25px;
+  height: 25px;
+  border: 1px solid;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.setting--box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: white;
+  font-size: 13px;
+  margin: 10px;
+}
