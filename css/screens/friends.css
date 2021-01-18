@@ -92,6 +92,12 @@
   padding: 0px 15px;
 }
 
+.channel__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .channel img {
   width: 60px;
   height: 60px;
