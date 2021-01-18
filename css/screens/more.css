@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px 15px;
+  padding: 0px 5px;
 }
 
 .more--avatar img {
@@ -18,10 +18,18 @@
   width: 100%;
 }
 
+.chat__text h1 {
+  font-size: 20px;
+}
+
 .chat__text__email {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.chat__text__email span {
+  font-size: 15px;
 }
 
 .exclamation-box {
@@ -73,7 +81,7 @@
   font-weight: 600;
   text-align: center;
   width: 25%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 /*</icons--first--text>*/
@@ -106,7 +114,7 @@
   font-weight: 600;
   text-align: center;
   width: 25%;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 /*</icons--second--text>*/
@@ -162,7 +170,6 @@
   font-weight: 600;
   text-align: center;
   width: 25%;
-  margin-bottom: 30px;
 }
 
 /*</icons--down--text>*/
