@@ -1,3 +1,5 @@
+/*<chatting-bar>*/
+
 .chatting-bar {
   display: flex;
   justify-content: space-between;
@@ -40,3 +42,5 @@
   text-decoration: none;
   color: inherit;
 }
+
+/*</chatting-bar>*/
