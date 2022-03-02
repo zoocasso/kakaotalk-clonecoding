@@ -1,3 +1,3 @@
-#kakaotalk clone Coding
+## Kakaotalk Clone Coding
 
-HTML & CSS
+### tech HTML & CSS
